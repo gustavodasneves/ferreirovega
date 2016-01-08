@@ -1,0 +1,9 @@
+/admin/config.php
+/config.php
+.DS_Store
+/image/cache
+/install
+/install/*
+/install.lock
+/install.lock/*
+/system/storage/cache/*
