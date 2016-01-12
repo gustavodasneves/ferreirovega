@@ -254,3 +254,9 @@
 2016-01-08 19:41:04 - PHP Notice:  Undefined index: key in /Applications/MAMP/htdocs/ferreirovega/catalog/view/theme/black_justin/template/common/cart.tpl on line 25
 2016-01-08 19:41:04 - PHP Notice:  Undefined variable: icon in /Applications/MAMP/htdocs/ferreirovega/catalog/view/theme/black_justin/template/common/header.tpl on line 20
 2016-01-08 19:41:04 - PHP Notice:  Undefined variable: google_analytics in /Applications/MAMP/htdocs/ferreirovega/catalog/view/theme/black_justin/template/common/header.tpl on line 42
+2016-01-08 19:43:59 - PHP Notice:  Undefined index: key in /Applications/MAMP/htdocs/ferreirovega/catalog/view/theme/black_justin/template/common/cart.tpl on line 25
+2016-01-08 19:43:59 - PHP Notice:  Undefined variable: icon in /Applications/MAMP/htdocs/ferreirovega/catalog/view/theme/black_justin/template/common/header.tpl on line 20
+2016-01-08 19:43:59 - PHP Notice:  Undefined variable: google_analytics in /Applications/MAMP/htdocs/ferreirovega/catalog/view/theme/black_justin/template/common/header.tpl on line 42
+2016-01-08 19:44:14 - PHP Notice:  Undefined index: key in /Applications/MAMP/htdocs/ferreirovega/catalog/view/theme/black_justin/template/common/cart.tpl on line 25
+2016-01-08 19:44:14 - PHP Notice:  Undefined variable: icon in /Applications/MAMP/htdocs/ferreirovega/catalog/view/theme/black_justin/template/common/header.tpl on line 20
+2016-01-08 19:44:14 - PHP Notice:  Undefined variable: google_analytics in /Applications/MAMP/htdocs/ferreirovega/catalog/view/theme/black_justin/template/common/header.tpl on line 42
