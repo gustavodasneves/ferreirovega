@@ -3,9 +3,14 @@ a:focus, a:hover {
   color: #BCAD58;
 }
 
-.btn-primary:hover, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
   background: #BCAD54;
   border-color: #90843d;
+}
+
+/* header/top */
+#cart > .btn {
+  border-color: #222222 #222222 #000000;
 }
 
 #top {
@@ -16,6 +21,7 @@ a:focus, a:hover {
   font-weight: bold;
   color: #FFF;
 }
+
 #menu {
   background: #FFF;
 }
@@ -28,6 +34,7 @@ a:focus, a:hover {
 	border-color: #503F31;
 }
 
+/* products boxes */
 .product-thumb .button-group button {
   color: #FFF;
 }
