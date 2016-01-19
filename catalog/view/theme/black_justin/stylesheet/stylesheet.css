@@ -12,6 +12,12 @@ footer a:focus{
 	color: #FFF !important;
 	background:#92745B;
 }
+
+/* override bootstrap link hover event **/
+a:focus, a:hover {
+  color: #BCAD58;
+}
+
 h1, h2, h3, h4, h5, h6 {
 	color: #444;
 	font-family: 'Lobster', cursive;
@@ -52,6 +58,12 @@ a {
 	background: #503F31;
 	color:#FFF;
 }
+
+.btn-primary:hover, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
+  background: #BCAD54;
+  border-color: #90843d;
+}
+
 #menu, .btn-default, .btn, #menu .btn-navbar {
 	border-color: #BCAD54;
 }
@@ -651,6 +663,7 @@ footer h5 {
 	padding: 0 20px;
 	min-height: 180px;
 }
+
 .product-list .product-thumb .caption {
 	margin-left: 230px;
 }
@@ -725,7 +738,7 @@ h2.price {
 	border: none;
 	display: inline-block;
 	float: left;
-	color: #333;
+	color: #FFF;
 	line-height: 38px;
 	font-weight: bold;
 	text-align: center;
@@ -735,7 +748,7 @@ h2.price {
 	width: 20%;
 }
 .product-thumb .button-group button:hover {
-	color: #fff;
+	color: #BCAD58;
 	text-decoration: none;
 	cursor: pointer;
 }
@@ -749,9 +762,6 @@ h2.price {
 		width: 33.33%;
 	}
 }
-
-
-
 
 .thumbnails {
 	overflow: auto;
@@ -823,7 +833,6 @@ h2.price {
 	background:#000;
 	padding:5px;
 }
-
 
 .mod_carusel{
 	padding: 0 0 60px 0
