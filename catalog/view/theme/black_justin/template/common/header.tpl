@@ -84,7 +84,7 @@
         </div>
       </div>
       <!-- <div class="col-sm-5 wow bounceInRight center animated"><?php echo $search; ?></div> -->
-      <div class="col-sm-3 wow bounceInLeft center animated"><?php echo $cart; ?></div>
+      <div class="col-sm-offset-5 col-sm-3 wow bounceInLeft center animated"><?php echo $cart; ?></div>
     </div>
   </div>
 
