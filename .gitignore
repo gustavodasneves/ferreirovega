@@ -7,3 +7,4 @@
 /install.lock
 /install.lock/*
 /system/storage/cache/*
+!/system/storage/cache/index.html
