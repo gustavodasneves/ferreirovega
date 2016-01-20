@@ -1,0 +1,44 @@
+/* override bootstrap link hover event **/
+a:focus, a:hover {
+  color: #BCAD58;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
+  background: #BCAD54;
+  border-color: #90843d;
+}
+
+/* header/top */
+#cart > .btn {
+  border-color: #222222 #222222 #000000;
+}
+
+#top {
+  background-color: #503F2F;
+}
+
+#top .btn-link, #top-links li, #top-links a {
+  font-weight: bold;
+  color: #FFF;
+}
+
+#menu {
+  background: #FFF;
+}
+
+#menu .nav > li > a {
+  color: #333;
+}
+
+#menu, .btn-default, .btn, #menu .btn-navbar {
+	border-color: #503F31;
+}
+
+/* products boxes */
+.product-thumb .button-group button {
+  color: #FFF;
+}
+
+.product-thumb .button-group button:hover {
+	color: #BCAD58;
+}

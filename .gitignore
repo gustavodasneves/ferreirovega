@@ -7,3 +7,12 @@
 /install.lock
 /install.lock/*
 /system/storage/cache/*
+!/system/storage/cache/index.html
+/system/storage/download/*
+!/system/storage/download/index.html
+/system/storage/logs/*
+!/system/storage/logs/index.html
+/system/storage/modification/*
+!/system/storage/modification/index.html
+/system/storage/upload/*
+!/system/storage/upload/index.html
