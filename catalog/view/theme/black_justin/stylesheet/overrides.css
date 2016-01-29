@@ -22,6 +22,10 @@ a:focus, a:hover {
   color: #FFF;
 }
 
+#top-links a:hover {
+  color: #CCC;
+}
+
 #menu {
   background: #FFF;
 }
