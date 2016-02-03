@@ -161,11 +161,12 @@ var cart = {
 					$('html, body').animate({ scrollTop: 0 }, 'slow');
 
 					$('#cart > ul').load('index.php?route=common/cart/info ul li');
+          $('div[id^="product_"]').modal('hide');
 				}
 			},
-	        error: function(xhr, ajaxOptions, thrownError) {
-	            alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
-	        }
+      error: function(xhr, ajaxOptions, thrownError) {
+          alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+      }
 		});
 	},
 	'update': function(key, quantity) {
