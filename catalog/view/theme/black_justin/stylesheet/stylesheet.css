@@ -190,9 +190,11 @@ header.smaller #menu{
 }
 #top-links .dropdown-menu a {
 	text-shadow: none;
+	color: #333;
 }
 #top-links .dropdown-menu a:hover {
-	color: #333;
+	color: #FFF;
+
 }
 #top .btn-link strong {
 	font-size: 16px;
