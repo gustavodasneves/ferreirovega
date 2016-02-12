@@ -56,8 +56,12 @@ a:focus, a:hover {
 	color: #BCAD58;
 }
 
+#logo {
+  width: 166px;
+}
+
 @media (max-width: 768px) {
   #logo {
-    text-align: center;
+    margin: 0 auto 10px;
   }
 }
