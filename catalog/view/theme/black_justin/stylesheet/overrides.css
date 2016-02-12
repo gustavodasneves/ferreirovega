@@ -46,3 +46,9 @@ a:focus, a:hover {
 .product-thumb .button-group button:hover {
 	color: #BCAD58;
 }
+
+@media (max-width: 768px) {
+  #logo {
+    text-align: center;
+  }
+}

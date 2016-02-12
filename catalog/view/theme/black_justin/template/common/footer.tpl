@@ -23,10 +23,8 @@
       <div class="col-sm-3 wow flipInX center animated">
         <h5><i class="fa fa-gift"></i> <?php echo $text_extra; ?></h5>
         <ul class="list-unstyled">
-          <li><a href="<?php echo $manufacturer; ?>"><?php echo $text_manufacturer; ?></a></li>
           <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
           <li><a href="<?php echo $affiliate; ?>"><?php echo $text_affiliate; ?></a></li>
-          <li><a href="<?php echo $special; ?>"><?php echo $text_special; ?></a></li>
         </ul>
       </div>
       <div class="col-sm-3 wow flipInX center animated">
@@ -62,7 +60,7 @@
 		init: true
 	};
 	window.scrollReveal = new scrollReveal( config );
-	
+
 	$(document).ready(function() {
 		$('.thumbnails').magnificPopup({
 			type:'image',
@@ -72,7 +70,7 @@
 			}
 		});
 	});
-	
+
 	function init() {
         window.addEventListener('scroll', function(e){
             var distanceY = window.pageYOffset || document.documentElement.scrollTop,
