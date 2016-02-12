@@ -38,6 +38,15 @@ a:focus, a:hover {
 	border-color: #503F31;
 }
 
+#menu .btn-navbar:hover,
+#menu .btn-navbar:focus,
+#menu .btn-navbar:active {
+  background-color: #735A46;
+}
+
+#menu #category {
+  color: #333;
+}
 /* products boxes */
 .product-thumb .button-group button {
   color: #FFF;
